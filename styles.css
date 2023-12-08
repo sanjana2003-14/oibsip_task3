@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.nawpic.com/media/2020/desktop-backgrounds-nawpic-14.jpg); /* Add the path to your background image */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #converter-container {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Add a subtle box shadow */
+  }
+
+  input, select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .convert-btn {
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .convert-btn:hover {
+    background-color: #45a049;
+  }
